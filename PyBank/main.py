@@ -1,6 +1,6 @@
 import os
 import csv
-
+#set local pc path to data csv file
 bank_csv=os.path.join('budget_data.csv')
 
 with open(bank_csv,'r') as csvfile:
