@@ -2,7 +2,7 @@
 import os
 import csv
 #set local pc path to data csv file
-csv_path=os.path.join("election_data.csv")
+csv_path=os.path.join("Resources/election_data.csv")
 
 with open(csv_path,'r') as csvfile:
     csvreader=csv.reader(csvfile,delimiter=',')
